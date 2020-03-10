@@ -1,6 +1,4 @@
-" danirod's vimrc settings
-" Author and maintainer: Dani Rodríguez <danirod@outlook.com>
-" Public backup: http://github.com/danirod/vimrc
+"Esto es un fork del vimrc de danirod https://github.com/danirod/vimrc
 "
 " LICENSE:
 " You are free to read and study this bundle or snippets of it and to use
