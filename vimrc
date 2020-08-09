@@ -12,9 +12,9 @@ if empty(glob("~/.vim/autoload/plug.vim"))
     autocmd VimEnter * PlugInstall
 end
 
-if !isdirectory("~/.vim/colors")
-    silent !mkdir -p ~/.vim/colors
-end
+" if !isdirectory("~/.vim/colors")
+"    silent !mkdir -p ~/.vim/colors
+" end
 
 " Init vim-plug plugins
 call plug#begin('~/.vim/plugged/')
@@ -50,6 +50,7 @@ call plug#end()
 "Color Scheme
 try
     colorscheme aldmeris
+    let g:aldmeris_transparent = 1
     catch
 endtry
 
@@ -84,7 +85,7 @@ if &t_Co > 2 || has("gui_running")
    syntax on
    set colorcolumn=80
    silent! color Dusk
-   set background=dark
+   "set background=dark
 endif
 
 " Extra fancyness if full pallete is supported.
