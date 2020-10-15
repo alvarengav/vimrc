@@ -44,16 +44,21 @@ Plug 'arnaud-lb/vim-php-namespace'
 "Plug 'morhetz/gruvbox'
 "Plug 'jaapie/vim-colours-dusk'
 "Plug 'abra/vim-obsidian'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'veloce/vim-aldmeris'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 "Color Scheme
 try
     colorscheme aldmeris
     let g:aldmeris_transparent = 1
-    catch
+catch
 endtry
 
+"airline config
+let g:airline_theme='minimalist'
 " Stop acting like classic vi
 set nocompatible            " disable vi compatibility mode
 set history=1000            " increase history size
@@ -84,7 +89,7 @@ let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.html.erb,*.xml.erb,*.xml"
 if &t_Co > 2 || has("gui_running")
    syntax on
    set colorcolumn=80
-   silent! color Dusk
+   "silent! color Dusk
    "set background=dark
 endif
 
