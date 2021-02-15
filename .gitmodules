@@ -1,0 +1,45 @@
+[submodule "pack/vendor/start/aldmerist"]
+	path = pack/vendor/start/aldmerist
+	url = git://github.com/veloce/vim-aldmeris.git
+[submodule "pack/vendor/start/nerdtree"]
+	path = pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/vendor/start/airline"]
+	path = pack/vendor/start/airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/vendor/start/airline-themes"]
+	path = pack/vendor/start/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/vendor/start/ack"]
+	path = pack/vendor/start/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "pack/vendor/start/ale"]
+	path = pack/vendor/start/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/vendor/start/echodoc"]
+	path = pack/vendor/start/echodoc
+	url = https://github.com/Shougo/echodoc.vim.git
+[submodule "pack/vendor/start/editorconfig"]
+	path = pack/vendor/start/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "pack/vendor/start/emmet"]
+	path = pack/vendor/start/emmet
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "pack/vendor/start/pear-tree"]
+	path = pack/vendor/start/pear-tree
+	url = https://github.com/tmsvg/pear-tree.git
+[submodule "pack/vendor/start/closetag"]
+	path = pack/vendor/start/closetag
+	url = https://github.com/alvan/vim-closetag.git
+[submodule "pack/vendor/start/gitgutter"]
+	path = pack/vendor/start/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/vendor/start/polyglot"]
+	path = pack/vendor/start/polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "pack/vendor/start/close-buffers"]
+	path = pack/vendor/start/close-buffers
+	url = https://github.com/Asheq/close-buffers.vim.git
+[submodule "pack/vendor/start/dim"]
+	path = pack/vendor/start/dim
+	url = https://github.com/jeffkreeftmeijer/vim-dim.git
