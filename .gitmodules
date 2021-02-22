@@ -43,3 +43,9 @@
 [submodule "pack/vendor/start/dim"]
 	path = pack/vendor/start/dim
 	url = https://github.com/jeffkreeftmeijer/vim-dim.git
+[submodule "pack/vendor/start/ctrlp"]
+	path = pack/vendor/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/vendor/start/YouCompleteMe"]
+	path = pack/vendor/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git

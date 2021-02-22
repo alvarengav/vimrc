@@ -28,6 +28,11 @@ if &t_Co > 2
         set background=dark
 
         set colorcolumn=80
+        set cursorline
+        highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
+        highlight CursorLineNr cterm=bold ctermfg=Yellow
+        highlight WildMenu cterm=bold ctermfg=black " only aldmeris colorscheme
+
         highlight Folded cterm=reverse ctermbg=0 ctermfg=8
         highlight VertSplit cterm=NONE ctermbg=NONE ctermfg=8
         highlight Conceal cterm=NONE ctermbg=NONE ctermfg=8
@@ -57,14 +62,19 @@ set noshowmode
 set laststatus=1
 set wildmenu
 
-set nowrap
 set number
 set showmatch
 
 map <C-N> :bnext<CR>
-map <C-P> :bprev<CR>
+map <C-B> :bprev<CR>
 imap <C-N> <Esc>:bnext<CR>i
-imap <C-N> <Esc>:bprev<CR>i
+imap <C-B> <Esc>:bprev<CR>i
+
+" Make window navigation less painful.
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 let mapleader=","
 
