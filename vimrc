@@ -26,7 +26,9 @@ if &t_Co > 2
         silent! colorscheme aldmeris
         let g:aldmeris_transparent = 1
         set background=dark
+        highlight LineNr ctermbg=NONE
 
+        " Sometimes I see the syntax be out of sync
         set colorcolumn=80
         set cursorline
         highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
@@ -42,6 +44,7 @@ if &t_Co > 2
         highlight GitGutterAdd ctermfg=Green cterm=bold
         highlight GitGutterDelete ctermfg=Red cterm=bold
         highlight GitGutterChange ctermfg=Yellow cterm=bold
+
         " Sometimes I see the syntax be out of sync
         noremap <F12> <Esc>:syntax sync fromstart<CR>
         inoremap <F12> <C-o>:syntax sync fromstart<CR>
@@ -65,16 +68,10 @@ set wildmenu
 set number
 set showmatch
 
-map <C-N> :bnext<CR>
-map <C-B> :bprev<CR>
-imap <C-N> <Esc>:bnext<CR>i
-imap <C-B> <Esc>:bprev<CR>i
-
-" Make window navigation less painful.
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+map <C-S> :bnext<CR>
+map <C-A> :bprev<CR>
+imap <C-S> <Esc>:bnext<CR>i
+imap <C-A> <Esc>:bprev<CR>i
 
 let mapleader=","
 
@@ -82,3 +79,7 @@ nmap <F5> :set invrelativenumber<CR>
 imap <F5> :set invrelativenumber<CR>
 
 tnoremap <Esc><Esc> <C-\><C-n>
+
+"Busqueda
+set hls is
+nnoremap <ESC><ESC> :noh<RETURN>
