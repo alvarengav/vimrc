@@ -52,3 +52,6 @@
 [submodule "pack/vendor/start/vim-javascript"]
 	path = pack/vendor/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/vendor/start/nord-vim"]
+	path = pack/vendor/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git

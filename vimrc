@@ -68,10 +68,10 @@ set wildmenu
 set number
 set showmatch
 
-map <C-S> :bnext<CR>
-map <C-A> :bprev<CR>
-imap <C-S> <Esc>:bnext<CR>i
-imap <C-A> <Esc>:bprev<CR>i
+map <C-K> :bnext<CR>
+map <C-N> :bprev<CR>
+imap <C-K> <Esc>:bnext<CR>i
+imap <C-N> <Esc>:bprev<CR>i
 
 let mapleader=","
 
