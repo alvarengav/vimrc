@@ -66,10 +66,11 @@ set laststatus=1
 set wildmenu
 
 set number
+set invrelativenumber
 set showmatch
 
-map <C-K> :bnext<CR>
-map <C-N> :bprev<CR>
+map <C-K> :bprev<CR>
+map <C-N> :bnext<CR>
 imap <C-K> <Esc>:bnext<CR>i
 imap <C-N> <Esc>:bprev<CR>i
 
