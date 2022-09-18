@@ -1,6 +1,3 @@
-[submodule "pack/vendor/start/aldmerist"]
-	path = pack/vendor/start/aldmerist
-	url = git://github.com/veloce/vim-aldmeris.git
 [submodule "pack/vendor/start/nerdtree"]
 	path = pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
@@ -46,9 +43,6 @@
 [submodule "pack/vendor/start/ctrlp"]
 	path = pack/vendor/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "pack/vendor/start/YouCompleteMe"]
-	path = pack/vendor/start/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "pack/vendor/start/vim-javascript"]
 	path = pack/vendor/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
