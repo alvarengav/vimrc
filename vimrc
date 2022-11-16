@@ -1,6 +1,5 @@
 " Configuración tomada del repo de danirod https://github.com/danirod/vimrc
 " Stop acting like classic vi
-set nocompatible            " disable vi compatibility mode
 set noswapfile              " don't create swapfiles
 set nobackup                " don't backup, use git!
 
@@ -74,7 +73,7 @@ map <C-N> :bnext<CR>
 imap <C-K> <Esc>:bnext<CR>i
 imap <C-N> <Esc>:bprev<CR>i
 
-let mapleader=","
+let mapleader=','
 
 nmap <F5> :set invrelativenumber<CR>
 imap <F5> :set invrelativenumber<CR>
@@ -82,5 +81,5 @@ imap <F5> :set invrelativenumber<CR>
 tnoremap <Esc><Esc> <C-\><C-n>
 
 "Busqueda
-set hls is
+set hlsearch is
 nnoremap <ESC><ESC> :noh<RETURN>
